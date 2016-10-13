@@ -43,9 +43,9 @@ myConfig =
   where sc = ewmh $ pagerHints xfceConfig
 
 myXPConfig = def
-  { font = "xft:Source Code Pro:size=14"
+  { font = "xft:Source Code Pro:size=8"
   , bgColor = "black"
-  , height = 36
+  , height = 20
   , searchPredicate = isInfixOf
   }
 
